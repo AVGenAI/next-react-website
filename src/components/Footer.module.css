@@ -1,0 +1,97 @@
+.footer {
+  background-color: #2d3748;
+  color: #cbd5e0;
+  padding-top: 3rem;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.logoSection {
+  flex: 1 1 300px;
+  margin-bottom: 2rem;
+  margin-right: 2rem;
+}
+
+.logoSection h3 {
+  color: white;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.logoSection p {
+  line-height: 1.6;
+  opacity: 0.8;
+}
+
+.linksSection {
+  flex: 2 1 600px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.linkGroup {
+  flex: 1 1 150px;
+  margin-bottom: 2rem;
+  margin-right: 1rem;
+}
+
+.linkGroup h4 {
+  color: white;
+  font-size: 1.2rem;
+  margin-bottom: 1.25rem;
+}
+
+.linkGroup ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.linkGroup li {
+  margin-bottom: 0.75rem;
+}
+
+.linkGroup a {
+  color: #cbd5e0;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.linkGroup a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.copyright {
+  text-align: center;
+  padding: 1.5rem;
+  margin-top: 2rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  font-size: 0.9rem;
+  opacity: 0.7;
+}
+
+@media (max-width: 768px) {
+  .content {
+    flex-direction: column;
+  }
+  
+  .logoSection {
+    margin-right: 0;
+  }
+  
+  .linksSection {
+    flex-direction: column;
+  }
+  
+  .linkGroup {
+    margin-right: 0;
+  }
+}
